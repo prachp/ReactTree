@@ -1,5 +1,5 @@
 You can run it with python simpleHttpServer.
-Command one mac: python -m SimpleHTTPServer
+Command on mac: python -m SimpleHTTPServer
 
 The demo will be available at http://localhost:8000.
 
