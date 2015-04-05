@@ -1,0 +1,28 @@
+.collapsed:before {
+	content: "> ";
+}
+
+.expanded:before {
+	content: "v ";
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 1em;
+}
+
+.nodeBtn {
+	cursor: pointer;
+	background: none;
+	border: none;
+}
+
+.nodeBtn:hover,
+.nodeBtn:focus {
+	background-color: red;
+}
+
+.treeContainer {
+	width: 50%;
+	float: left;
+}
