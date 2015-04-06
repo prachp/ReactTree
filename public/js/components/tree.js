@@ -11,6 +11,24 @@
 *  var ApiUtils = require('../utils/apiUtils'),
 *      TreeNode = require('./treeNode');
 */
+// These if statements are for nodejs test
+// we should just use require in real environment
+if (!React && module) {
+    var React = require('react/addons');
+}
+
+if (!$) {
+    var $ = require('jquery');
+}
+
+if (!ApiUtils) {
+    var ApiUtils = require('ApiUtils');
+}
+
+if (!TreeNode) {
+    var TreeNode = require('./treeNode.js');
+}
+
 var Tree = React.createClass({
 
     getNewData : function() {
@@ -35,7 +53,7 @@ var Tree = React.createClass({
         var root = this.state.root;
         // If key is empty, show the right message
         if (!root || !root.key) {
-            return (<span> Tree is empty</span>);
+            return (<span className="errorMessage">Tree is empty</span>);
         } 
         return (
             <div>
@@ -48,3 +66,8 @@ var Tree = React.createClass({
           );
     }
 });
+
+//for nodejs test
+if (module && module.exports) {
+    module.exports = Tree;
+}

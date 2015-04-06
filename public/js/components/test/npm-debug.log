@@ -1,0 +1,262 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json @ No description
+5 warn package.json @ No repository field.
+6 warn package.json @ No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/Users/prachp/ReactTree/public/js/components',
+8 verbose install   [ 'react', 'react-tools', 'jest-cli' ] ]
+9 info preinstall @
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'react@*', null ]
+12 verbose cache add name=undefined spec="react@*" args=["react@*",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'react@*',
+13 verbose parsed url   path: 'react@*',
+13 verbose parsed url   href: 'react@*' }
+14 verbose cache add [ 'react-tools@*', null ]
+15 verbose cache add name=undefined spec="react-tools@*" args=["react-tools@*",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'react-tools@*',
+16 verbose parsed url   path: 'react-tools@*',
+16 verbose parsed url   href: 'react-tools@*' }
+17 verbose already installed skipping jest-cli@^0.4.0 /Users/prachp/ReactTree/public/js/components
+18 verbose cache add name="react" spec="*" args=["react","*"]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: '*',
+19 verbose parsed url   path: '*',
+19 verbose parsed url   href: '*' }
+20 verbose addNamed [ 'react', '*' ]
+21 verbose addNamed [ null, '*' ]
+22 verbose cache add name="react-tools" spec="*" args=["react-tools","*"]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: '*',
+23 verbose parsed url   path: '*',
+23 verbose parsed url   href: '*' }
+24 verbose addNamed [ 'react-tools', '*' ]
+25 verbose addNamed [ null, '*' ]
+26 silly lockFile 7369d070-react react@*
+27 verbose lock react@* /Users/prachp/.npm/7369d070-react.lock
+28 silly lockFile a54b2845-react-tools react-tools@*
+29 verbose lock react-tools@* /Users/prachp/.npm/a54b2845-react-tools.lock
+30 silly addNameRange { name: 'react', range: '*', hasData: false }
+31 silly addNameRange { name: 'react-tools', range: '*', hasData: false }
+32 verbose request where is /react
+33 verbose request registry https://registry.npmjs.org/
+34 verbose request id 8cf40e83de27e9ed
+35 verbose url raw /react
+36 verbose url resolving [ 'https://registry.npmjs.org/', './react' ]
+37 verbose url resolved https://registry.npmjs.org/react
+38 verbose request where is https://registry.npmjs.org/react
+39 info trying registry request attempt 1 at 15:40:20
+40 http GET https://registry.npmjs.org/react
+41 verbose request where is /react-tools
+42 verbose request registry https://registry.npmjs.org/
+43 verbose url raw /react-tools
+44 verbose url resolving [ 'https://registry.npmjs.org/', './react-tools' ]
+45 verbose url resolved https://registry.npmjs.org/react-tools
+46 verbose request where is https://registry.npmjs.org/react-tools
+47 info trying registry request attempt 1 at 15:40:20
+48 verbose etag "703G89BBSJVJDBXGBQRDT31C3"
+49 http GET https://registry.npmjs.org/react-tools
+50 http 200 https://registry.npmjs.org/react-tools
+51 silly registry.get cb [ 200,
+51 silly registry.get   { date: 'Sun, 05 Apr 2015 22:40:21 GMT',
+51 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+51 silly registry.get     etag: '"5J11DRAFF06MPHPT3SOQDRNHU"',
+51 silly registry.get     'content-type': 'application/json',
+51 silly registry.get     'cache-control': 'max-age=60',
+51 silly registry.get     'content-length': '65219',
+51 silly registry.get     'accept-ranges': 'bytes',
+51 silly registry.get     via: '1.1 varnish',
+51 silly registry.get     age: '0',
+51 silly registry.get     'x-served-by': 'cache-lax1433-LAX',
+51 silly registry.get     'x-cache': 'HIT',
+51 silly registry.get     'x-cache-hits': '1',
+51 silly registry.get     'x-timer': 'S1428273621.081381,VS0,VE170',
+51 silly registry.get     vary: 'Accept',
+51 silly registry.get     'keep-alive': 'timeout=10, max=50',
+51 silly registry.get     connection: 'Keep-Alive' } ]
+52 silly addNameRange number 2 { name: 'react-tools', range: '*', hasData: true }
+53 silly addNameRange versions [ 'react-tools',
+53 silly addNameRange   [ '0.3.0',
+53 silly addNameRange     '0.3.1',
+53 silly addNameRange     '0.3.2',
+53 silly addNameRange     '0.3.3',
+53 silly addNameRange     '0.4.0',
+53 silly addNameRange     '0.4.1',
+53 silly addNameRange     '0.5.0',
+53 silly addNameRange     '0.5.1',
+53 silly addNameRange     '0.4.2',
+53 silly addNameRange     '0.5.2',
+53 silly addNameRange     '0.8.0',
+53 silly addNameRange     '0.9.0-rc1',
+53 silly addNameRange     '0.9.0',
+53 silly addNameRange     '0.10.0-rc1',
+53 silly addNameRange     '0.10.0',
+53 silly addNameRange     '0.11.0-rc1',
+53 silly addNameRange     '0.11.0',
+53 silly addNameRange     '0.11.1',
+53 silly addNameRange     '0.11.2',
+53 silly addNameRange     '0.12.0-rc1',
+53 silly addNameRange     '0.12.0',
+53 silly addNameRange     '0.12.1',
+53 silly addNameRange     '0.12.2',
+53 silly addNameRange     '0.13.0-alpha.1',
+53 silly addNameRange     '0.13.0-alpha.2',
+53 silly addNameRange     '0.13.0-beta.1',
+53 silly addNameRange     '0.13.0-beta.2',
+53 silly addNameRange     '0.13.0-rc1',
+53 silly addNameRange     '0.13.0-rc2',
+53 silly addNameRange     '0.13.0',
+53 silly addNameRange     '0.13.1' ] ]
+54 verbose addNamed [ 'react-tools', '0.13.1' ]
+55 verbose addNamed [ '0.13.1', '0.13.1' ]
+56 silly lockFile bcc38442-react-tools-0-13-1 react-tools@0.13.1
+57 verbose lock react-tools@0.13.1 /Users/prachp/.npm/bcc38442-react-tools-0-13-1.lock
+58 silly lockFile 01386f93-act-tools-react-tools-0-13-1-tgz https://registry.npmjs.org/react-tools/-/react-tools-0.13.1.tgz
+59 verbose lock https://registry.npmjs.org/react-tools/-/react-tools-0.13.1.tgz /Users/prachp/.npm/01386f93-act-tools-react-tools-0-13-1-tgz.lock
+60 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-tools/-/react-tools-0.13.1.tgz',
+60 verbose addRemoteTarball   '7e8ea87c771d9f2114473950fa2fa8d2e3b8200d' ]
+61 info retry fetch attempt 1 at 15:40:21
+62 verbose fetch to= /var/folders/10/x0h0f3g91hzg9p7798h978xc0000gn/T/npm-7549-nUzGXYiX/registry.npmjs.org/react-tools/-/react-tools-0.13.1.tgz
+63 http GET https://registry.npmjs.org/react-tools/-/react-tools-0.13.1.tgz
+64 http 200 https://registry.npmjs.org/react-tools/-/react-tools-0.13.1.tgz
+65 http 200 https://registry.npmjs.org/react
+66 silly registry.get cb [ 200,
+66 silly registry.get   { date: 'Sun, 05 Apr 2015 22:40:21 GMT',
+66 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+66 silly registry.get     etag: '"1A1F4QOLCM1NJCKVCCPWJI478"',
+66 silly registry.get     'content-type': 'application/json',
+66 silly registry.get     'cache-control': 'max-age=60',
+66 silly registry.get     'content-length': '55942',
+66 silly registry.get     'accept-ranges': 'bytes',
+66 silly registry.get     via: '1.1 varnish',
+66 silly registry.get     age: '0',
+66 silly registry.get     'x-served-by': 'cache-lax1431-LAX',
+66 silly registry.get     'x-cache': 'HIT',
+66 silly registry.get     'x-cache-hits': '1',
+66 silly registry.get     'x-timer': 'S1428273621.080865,VS0,VE318',
+66 silly registry.get     vary: 'Accept',
+66 silly registry.get     'keep-alive': 'timeout=10, max=50',
+66 silly registry.get     connection: 'Keep-Alive' } ]
+67 silly addNameRange number 2 { name: 'react', range: '*', hasData: true }
+68 silly addNameRange versions [ 'react',
+68 silly addNameRange   [ '0.0.1',
+68 silly addNameRange     '0.0.2',
+68 silly addNameRange     '0.0.3',
+68 silly addNameRange     '0.1.2',
+68 silly addNameRange     '0.2.0',
+68 silly addNameRange     '0.2.1',
+68 silly addNameRange     '0.2.2',
+68 silly addNameRange     '0.2.3',
+68 silly addNameRange     '0.2.4',
+68 silly addNameRange     '0.2.5',
+68 silly addNameRange     '0.2.6',
+68 silly addNameRange     '0.3.0',
+68 silly addNameRange     '0.3.4',
+68 silly addNameRange     '0.3.5',
+68 silly addNameRange     '0.5.0',
+68 silly addNameRange     '0.5.1',
+68 silly addNameRange     '0.5.2',
+68 silly addNameRange     '0.6.0',
+68 silly addNameRange     '0.6.1',
+68 silly addNameRange     '0.6.2',
+68 silly addNameRange     '0.6.3',
+68 silly addNameRange     '0.7.0',
+68 silly addNameRange     '0.7.1',
+68 silly addNameRange     '0.8.0',
+68 silly addNameRange     '0.9.0-rc1',
+68 silly addNameRange     '0.9.0',
+68 silly addNameRange     '0.10.0-rc1',
+68 silly addNameRange     '0.10.0',
+68 silly addNameRange     '0.11.0-rc1',
+68 silly addNameRange     '0.11.0',
+68 silly addNameRange     '0.11.1',
+68 silly addNameRange     '0.11.2',
+68 silly addNameRange     '0.12.0-rc1',
+68 silly addNameRange     '0.12.0',
+68 silly addNameRange     '0.12.1',
+68 silly addNameRange     '0.12.2',
+68 silly addNameRange     '0.13.0-alpha.1',
+68 silly addNameRange     '0.13.0-alpha.2',
+68 silly addNameRange     '0.13.0-beta.1',
+68 silly addNameRange     '0.13.0-beta.2',
+68 silly addNameRange     '0.13.0-rc1',
+68 silly addNameRange     '0.13.0-rc2',
+68 silly addNameRange     '0.13.0',
+68 silly addNameRange     '0.13.1' ] ]
+69 verbose addNamed [ 'react', '0.13.1' ]
+70 verbose addNamed [ '0.13.1', '0.13.1' ]
+71 silly lockFile ad989f18-react-0-13-1 react@0.13.1
+72 verbose lock react@0.13.1 /Users/prachp/.npm/ad989f18-react-0-13-1.lock
+73 silly lockFile aaf6701d-npmjs-org-react-react-0-13-1-tgz https://registry.npmjs.org/react/-/react-0.13.1.tgz
+74 verbose lock https://registry.npmjs.org/react/-/react-0.13.1.tgz /Users/prachp/.npm/aaf6701d-npmjs-org-react-react-0-13-1-tgz.lock
+75 verbose addRemoteTarball [ 'https://registry.npmjs.org/react/-/react-0.13.1.tgz',
+75 verbose addRemoteTarball   'd38b700cdf7b33eeb0cefd7b8ca98e0fe8e5339d' ]
+76 info retry fetch attempt 1 at 15:40:21
+77 verbose fetch to= /var/folders/10/x0h0f3g91hzg9p7798h978xc0000gn/T/npm-7549-nUzGXYiX/registry.npmjs.org/react/-/react-0.13.1.tgz
+78 http GET https://registry.npmjs.org/react/-/react-0.13.1.tgz
+79 http 200 https://registry.npmjs.org/react/-/react-0.13.1.tgz
+80 silly lockFile 01386f93-act-tools-react-tools-0-13-1-tgz https://registry.npmjs.org/react-tools/-/react-tools-0.13.1.tgz
+81 silly lockFile 01386f93-act-tools-react-tools-0-13-1-tgz https://registry.npmjs.org/react-tools/-/react-tools-0.13.1.tgz
+82 silly lockFile bcc38442-react-tools-0-13-1 react-tools@0.13.1
+83 silly lockFile bcc38442-react-tools-0-13-1 react-tools@0.13.1
+84 silly lockFile a54b2845-react-tools react-tools@*
+85 silly lockFile a54b2845-react-tools react-tools@*
+86 silly lockFile aaf6701d-npmjs-org-react-react-0-13-1-tgz https://registry.npmjs.org/react/-/react-0.13.1.tgz
+87 silly lockFile aaf6701d-npmjs-org-react-react-0-13-1-tgz https://registry.npmjs.org/react/-/react-0.13.1.tgz
+88 silly lockFile ad989f18-react-0-13-1 react@0.13.1
+89 silly lockFile ad989f18-react-0-13-1 react@0.13.1
+90 silly lockFile 7369d070-react react@*
+91 silly lockFile 7369d070-react react@*
+92 error Error: EACCES, mkdir '/Users/prachp/.npm/react-tools/0.13.1'
+92 error  { [Error: EACCES, mkdir '/Users/prachp/.npm/react-tools/0.13.1']
+92 error   errno: 3,
+92 error   code: 'EACCES',
+92 error   path: '/Users/prachp/.npm/react-tools/0.13.1' }
+93 error Please try running this command again as root/Administrator.
+94 error System Darwin 13.4.0
+95 error command "node" "/usr/local/bin/npm" "install"
+96 error cwd /Users/prachp/ReactTree/public/js/components
+97 error node -v v0.10.32
+98 error npm -v 1.4.28
+99 error path /Users/prachp/.npm/react-tools/0.13.1
+100 error code EACCES
+101 error errno 3
+102 error stack Error: EACCES, mkdir '/Users/prachp/.npm/react-tools/0.13.1'
+103 verbose exit [ 3, true ]

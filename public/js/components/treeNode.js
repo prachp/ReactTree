@@ -11,6 +11,11 @@
 * Example:
 *  var ApiUtils = require('../utils/apiUtils');
 */
+
+// for nodejs test
+if (!React && module) {
+    var React = require('react/addons');
+}
 var TreeNode = React.createClass({
 
     // Constants for node state
@@ -72,3 +77,8 @@ var TreeNode = React.createClass({
           );
     }
 });
+
+//for nodejs test
+if (module && module.exports) {
+    module.exports = TreeNode;
+}
